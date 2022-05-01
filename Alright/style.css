@@ -11,7 +11,7 @@ body {
     color: #ff0099;
     font-size: 1.25rem;
     line-height: 1.2;
-  cursor:url(../images/glimmer2.png), auto;
+  cursor:url(../img/stars.png), auto;
 }
 
 /* Background Gradient for Monochromatic Colors */
@@ -59,7 +59,7 @@ body
 
 .col-1 {width: 20%;}
 .col-2 {width: 16.66%;}
-.col-3 {width: 35%;}
+.col-3 {width: 35%; }
 .col-4 {width: 33.33%;}
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
@@ -150,19 +150,23 @@ h1 {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
+    algin: left;
   }
 
   .ef img{
-  width:100%;  
+  width:100%; 
+  algin: left; 
 }
 
 body {
-  font-size: 2.35rem;
+  font-size: 1.35rem;
 }
 
 h1 {
   line-height: 1.15;
-  font-size: 1.2rem;
+  font-size: 3.2rem;
+  margin-top: 20px;
+  padding-top: 20px;
 }
 
   .description {
@@ -170,5 +174,6 @@ h1 {
   height: auto;
 }
 p{
-  color: black;
+  color: #ff0099;
+
 }
